@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1220"/>
+      <stop offset="50%" stop-color="#141a2e"/>
+      <stop offset="100%" stop-color="#0a0d17"/>
+    </linearGradient>
+    <linearGradient id="clip-v1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0055ff"/>
+      <stop offset="100%" stop-color="#00aaff"/>
+    </linearGradient>
+    <linearGradient id="clip-v2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9900ff"/>
+      <stop offset="100%" stop-color="#dd00ff"/>
+    </linearGradient>
+    <linearGradient id="clip-a1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c853"/>
+      <stop offset="100%" stop-color="#64dd17"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bg-grad-6)"/>
+
+  <!-- Top Tool Header / Badges -->
+  <g transform="translate(40, 25)">
+    <!-- Premiere Pro Badge -->
+    <rect width="28" height="28" rx="6" fill="#00005b" stroke="#9999ff" stroke-width="1.5"/>
+    <text x="14" y="19" fill="#9999ff" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="12" text-anchor="middle">Pr</text>
+
+    <!-- After Effects Badge -->
+    <rect x="36" width="28" height="28" rx="6" fill="#00005b" stroke="#d291ff" stroke-width="1.5"/>
+    <text x="50" y="19" fill="#d291ff" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="12" text-anchor="middle">Ae</text>
+
+    <text x="76" y="19" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="14">Motion Graphics &amp; Video Editing Reel</text>
+  </g>
+
+  <!-- Video Editor Workspace Interface -->
+  <!-- Top Left: Project / Media Bin -->
+  <g transform="translate(40, 65)">
+    <rect width="160" height="155" rx="8" fill="#131929" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect width="160" height="22" rx="8" fill="#1a2238"/>
+    <text x="10" y="15" fill="rgba(255,255,255,0.7)" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold">PROJECT ASSETS</text>
+    
+    <!-- Media Items -->
+    <rect x="10" y="32" width="65" height="36" rx="4" fill="#1e293b"/>
+    <circle cx="42" cy="50" r="8" fill="#6366f1"/>
+    <rect x="85" y="32" width="65" height="36" rx="4" fill="#1e293b"/>
+    <circle cx="117" cy="50" r="8" fill="#ec4899"/>
+
+    <rect x="10" y="76" width="65" height="36" rx="4" fill="#1e293b"/>
+    <circle cx="42" cy="94" r="8" fill="#06b6d4"/>
+    <rect x="85" y="76" width="65" height="36" rx="4" fill="#1e293b"/>
+    <circle cx="117" cy="94" r="8" fill="#eab308"/>
+
+    <rect x="10" y="122" width="140" height="20" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <text x="20" y="136" fill="#38bdf8" font-size="8">B-Roll_Montage_4K.mp4</text>
+  </g>
+
+  <!-- Top Right: Video Preview Monitor -->
+  <g transform="translate(210, 65)">
+    <rect width="350" height="155" rx="8" fill="#06080e" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <rect width="350" height="22" rx="8" fill="#1a2238"/>
+    <text x="12" y="15" fill="rgba(255,255,255,0.7)" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold">PROGRAM MONITOR: REEL_SEQUENCE</text>
+    
+    <!-- Monitor Scene (Kinetic Typography / Motion Graphic) -->
+    <circle cx="175" cy="85" r="38" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-dasharray="8,4"/>
+    <circle cx="175" cy="85" r="28" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+    <polygon points="170,75 185,85 170,95" fill="#ffffff"/>
+
+    <text x="175" y="132" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="12" text-anchor="middle" letter-spacing="2">CINEMATIC MOTION</text>
+    <rect x="130" y="138" width="90" height="2" fill="#38bdf8"/>
+
+    <!-- Timecode & Play controls -->
+    <rect x="15" y="135" width="55" height="14" rx="3" fill="#1e293b"/>
+    <text x="42" y="145" fill="#38bdf8" font-family="monospace" font-size="8" text-anchor="middle">00:01:24:18</text>
+  </g>
+
+  <!-- Bottom: Multi-Track Timeline -->
+  <g transform="translate(40, 230)">
+    <rect width="520" height="120" rx="8" fill="#0d121f" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    
+    <!-- Timeline Ruler -->
+    <rect width="520" height="20" rx="8" fill="#171e33"/>
+    <path d="M 0 10 H 520 V 20 H 0 Z" fill="#171e33"/>
+    <text x="35" y="14" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="7">00:00</text>
+    <text x="135" y="14" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="7">00:30</text>
+    <text x="235" y="14" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="7">01:00</text>
+    <text x="335" y="14" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="7">01:30</text>
+    <text x="435" y="14" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="7">02:00</text>
+
+    <!-- Track V2 (Text / FX) -->
+    <rect x="10" y="26" width="30" height="24" rx="4" fill="#1c243c"/>
+    <text x="25" y="42" fill="#d291ff" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" text-anchor="middle">V2</text>
+    <rect x="45" y="26" width="110" height="24" rx="4" fill="url(#clip-v2)"/>
+    <text x="55" y="41" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="8">Title_Intro_Ae</text>
+    <rect x="220" y="26" width="130" height="24" rx="4" fill="url(#clip-v2)"/>
+    <text x="230" y="41" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="8">Glitch_Transition</text>
+
+    <!-- Track V1 (Main Footage) -->
+    <rect x="10" y="55" width="30" height="24" rx="4" fill="#1c243c"/>
+    <text x="25" y="71" fill="#9999ff" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" text-anchor="middle">V1</text>
+    <rect x="45" y="55" width="160" height="24" rx="4" fill="url(#clip-v1)"/>
+    <text x="55" y="70" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="8">Main_Story_Cut_01</text>
+    <rect x="210" y="55" width="180" height="24" rx="4" fill="url(#clip-v1)"/>
+    <text x="220" y="70" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="8">B-Roll_Sequence_02</text>
+    <rect x="395" y="55" width="110" height="24" rx="4" fill="url(#clip-v1)"/>
+    <text x="405" y="70" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="8">Outro_Fade</text>
+
+    <!-- Track A1 (Audio) -->
+    <rect x="10" y="84" width="30" height="24" rx="4" fill="#1c243c"/>
+    <text x="25" y="100" fill="#64dd17" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" text-anchor="middle">A1</text>
+    <rect x="45" y="84" width="460" height="24" rx="4" fill="url(#clip-a1)"/>
+    <!-- Audio Waveform simulation -->
+    <path d="M 50 96 Q 70 88 90 96 T 130 96 T 170 96 T 210 96 T 250 96 T 290 96 T 330 96 T 370 96 T 410 96 T 450 96 T 490 96" fill="none" stroke="#004d1a" stroke-width="2"/>
+    <text x="55" y="99" fill="#003311" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold">Soundtrack_Master.wav</text>
+
+    <!-- Playhead / Current Time Indicator -->
+    <line x1="280" y1="8" x2="280" y2="114" stroke="#00e5ff" stroke-width="2"/>
+    <polygon points="274,8 286,8 280,18" fill="#00e5ff"/>
+  </g>
+</svg>

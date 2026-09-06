@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6d5b8"/>
+      <stop offset="100%" stop-color="#e5b894"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b2e"/>
+      <stop offset="100%" stop-color="#0f0c1b"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Decorative Circle -->
+  <circle cx="200" cy="200" r="185" fill="url(#avatar-bg)"/>
+  <circle cx="200" cy="200" r="175" fill="#090d16" opacity="0.85"/>
+  <circle cx="200" cy="200" r="150" fill="url(#glow)"/>
+
+  <!-- Tech Grid Lines -->
+  <path d="M 70 200 H 330 M 200 70 V 330" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" stroke-dasharray="6,6"/>
+  <circle cx="200" cy="200" r="120" stroke="rgba(99,102,241,0.2)" stroke-width="1" fill="none"/>
+
+  <!-- Character Group -->
+  <g filter="url(#soft-shadow)">
+    <!-- Shoulders / Hoodie -->
+    <path d="M 100 350 C 100 285 140 260 200 260 C 260 260 300 285 300 350 Z" fill="url(#shirt)"/>
+    
+    <!-- Collar / Inner Shirt -->
+    <path d="M 175 260 L 200 290 L 225 260 Z" fill="#4f46e5"/>
+    <path d="M 185 260 L 200 280 L 215 260 Z" fill="#06b6d4"/>
+
+    <!-- Neck -->
+    <rect x="182" y="220" width="36" height="45" rx="8" fill="url(#skin)"/>
+
+    <!-- Head -->
+    <ellipse cx="200" cy="180" rx="55" ry="65" fill="url(#skin)"/>
+
+    <!-- Ears -->
+    <circle cx="145" cy="180" r="12" fill="url(#skin)"/>
+    <circle cx="255" cy="180" r="12" fill="url(#skin)"/>
+
+    <!-- Hair -->
+    <path d="M 142 165 C 140 115 170 100 200 100 C 235 100 260 118 258 165 C 248 140 230 135 200 135 C 168 135 152 145 142 165 Z" fill="url(#hair)"/>
+    <path d="M 160 110 C 190 85 240 92 245 125 C 230 110 195 108 175 115 Z" fill="#2d2847"/>
+
+    <!-- Modern Designer Glasses -->
+    <rect x="156" y="165" width="36" height="24" rx="7" fill="none" stroke="#6366f1" stroke-width="3.5"/>
+    <rect x="208" y="165" width="36" height="24" rx="7" fill="none" stroke="#6366f1" stroke-width="3.5"/>
+    <line x1="192" y1="175" x2="208" y2="175" stroke="#6366f1" stroke-width="3.5"/>
+    <line x1="145" y1="172" x2="156" y2="174" stroke="#6366f1" stroke-width="3"/>
+    <line x1="244" y1="174" x2="255" y2="172" stroke="#6366f1" stroke-width="3"/>
+
+    <!-- Eyes (behind glasses) -->
+    <circle cx="174" cy="177" r="4" fill="#1e1b2e"/>
+    <circle cx="226" cy="177" r="4" fill="#1e1b2e"/>
+    <circle cx="175" cy="175" r="1.5" fill="#ffffff"/>
+    <circle cx="227" cy="175" r="1.5" fill="#ffffff"/>
+
+    <!-- Eyebrows -->
+    <path d="M 158 158 Q 174 153 188 158" stroke="#1e1b2e" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M 212 158 Q 226 153 242 158" stroke="#1e1b2e" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M 200 180 L 196 195 L 204 195" stroke="#cca17d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Friendly Smile -->
+    <path d="M 185 212 Q 200 224 215 212" stroke="#b46f56" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Floating UI / Code badges around avatar -->
+  <g transform="translate(42, 110)">
+    <rect width="64" height="32" rx="16" fill="#1e1b2e" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="32" y="21" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" text-anchor="middle">&lt;/&gt; Web</text>
+  </g>
+
+  <g transform="translate(290, 115)">
+    <rect width="68" height="32" rx="16" fill="#1e1b2e" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="34" y="21" fill="#f472b6" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" text-anchor="middle">🎨 UI/UX</text>
+  </g>
+
+  <g transform="translate(270, 275)">
+    <rect width="84" height="32" rx="16" fill="#1e1b2e" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="42" y="21" fill="#22d3ee" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11" text-anchor="middle">⚡ Creative</text>
+  </g>
+
+  <!-- Floating Particle Sparkles -->
+  <circle cx="95" cy="220" r="3" fill="#6366f1"/>
+  <circle cx="315" cy="210" r="2.5" fill="#38bdf8"/>
+  <circle cx="110" cy="80" r="2" fill="#ec4899"/>
+  <circle cx="280" cy="70" r="3" fill="#a855f7"/>
+</svg>

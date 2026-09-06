@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#1c2541"/>
+    </linearGradient>
+    <linearGradient id="neon-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bg-grad-3)"/>
+
+  <!-- Device Frame (Responsive split view: Laptop + Mobile) -->
+  <!-- Main Laptop View -->
+  <g transform="translate(30, 45)">
+    <rect width="380" height="280" rx="12" fill="#111827" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <rect width="380" height="26" rx="12" fill="#1f2937"/>
+    <path d="M 0 16 H 380 V 26 H 0 Z" fill="#1f2937"/>
+    <circle cx="16" cy="13" r="3.5" fill="#ef4444"/>
+    <circle cx="28" cy="13" r="3.5" fill="#f59e0b"/>
+    <circle cx="40" cy="13" r="3.5" fill="#10b981"/>
+
+    <!-- Portfolio Nav -->
+    <text x="25" y="52" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="12">&lt;GK /&gt;</text>
+    <rect x="230" y="44" width="28" height="6" rx="3" fill="#ffffff" opacity="0.6"/>
+    <rect x="270" y="44" width="28" height="6" rx="3" fill="#ffffff" opacity="0.6"/>
+    <rect x="310" y="40" width="45" height="14" rx="7" fill="#6366f1"/>
+
+    <!-- Hero Content -->
+    <text x="25" y="88" fill="#a5b4fc" font-family="'Segoe UI', sans-serif" font-weight="600" font-size="9">HELLO, I'M A BCA STUDENT</text>
+    <text x="25" y="112" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="16">Web &amp; UI Designer</text>
+    
+    <rect x="25" y="125" width="180" height="6" rx="2" fill="rgba(255,255,255,0.3)"/>
+    <rect x="25" y="136" width="150" height="6" rx="2" fill="rgba(255,255,255,0.3)"/>
+
+    <rect x="25" y="154" width="65" height="20" rx="6" fill="url(#neon-glow)"/>
+    <rect x="98" y="154" width="60" height="20" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)"/>
+
+    <!-- Mini Skill Tags -->
+    <g transform="translate(25, 190)">
+      <rect width="45" height="16" rx="4" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="0.8"/>
+      <text x="22.5" y="11" fill="#c7d2fe" font-size="8" text-anchor="middle">HTML5</text>
+
+      <rect x="52" width="42" height="16" rx="4" fill="rgba(56,189,248,0.2)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="73" y="11" fill="#bae6fd" font-size="8" text-anchor="middle">CSS3</text>
+
+      <rect x="100" width="42" height="16" rx="4" fill="rgba(236,72,153,0.2)" stroke="#ec4899" stroke-width="0.8"/>
+      <text x="121" y="11" fill="#fbcfe8" font-size="8" text-anchor="middle">UI/UX</text>
+    </g>
+
+    <!-- Mini Project Grid inside -->
+    <rect x="25" y="222" width="105" height="42" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="140" y="222" width="105" height="42" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="255" y="222" width="100" height="42" rx="6" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+
+    <!-- Decorative Avatar circle on right -->
+    <circle cx="295" cy="120" r="42" fill="rgba(99,102,241,0.2)" stroke="url(#neon-glow)" stroke-width="2"/>
+    <circle cx="295" cy="112" r="16" fill="#818cf8"/>
+    <path d="M 270 148 C 270 132 282 128 295 128 C 308 128 320 132 320 148 Z" fill="#818cf8"/>
+  </g>
+
+  <!-- Overlapping Mobile Mockup -->
+  <g transform="translate(425, 60)">
+    <rect width="135" height="260" rx="20" fill="#090d16" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+    <!-- Speaker / Notch -->
+    <rect x="42" y="8" width="50" height="6" rx="3" fill="#1f2937"/>
+    <!-- Screen content -->
+    <circle cx="67" cy="50" r="20" fill="#6366f1" opacity="0.4"/>
+    <rect x="25" y="82" width="85" height="10" rx="3" fill="#ffffff"/>
+    <rect x="35" y="98" width="65" height="6" rx="2" fill="rgba(255,255,255,0.5)"/>
+
+    <rect x="20" y="116" width="95" height="34" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="20" y="158" width="95" height="34" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="20" y="200" width="95" height="34" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <!-- Home bar -->
+    <rect x="45" y="248" width="45" height="3" rx="1.5" fill="rgba(255,255,255,0.4)"/>
+  </g>
+</svg>

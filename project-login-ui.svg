@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#1f1d36"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="sphere-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="sphere-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="glass-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="380" rx="16" fill="url(#bg-grad-2)"/>
+
+  <!-- Glowing Abstract Spheres (Glassmorphism backdrop) -->
+  <circle cx="160" cy="120" r="85" fill="url(#sphere-1)" filter="blur(20px)" opacity="0.75"/>
+  <circle cx="440" cy="260" r="95" fill="url(#sphere-2)" filter="blur(25px)" opacity="0.75"/>
+  <circle cx="380" cy="90" r="50" fill="#a855f7" filter="blur(15px)" opacity="0.5"/>
+
+  <!-- Glassmorphism Login Card -->
+  <g filter="url(#glass-shadow)" transform="translate(165, 35)">
+    <!-- Glass card body -->
+    <rect width="270" height="310" rx="18" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1.5"/>
+    
+    <!-- User Avatar Icon -->
+    <circle cx="135" cy="48" r="22" fill="rgba(99, 102, 241, 0.3)" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <circle cx="135" cy="43" r="8" fill="#ffffff"/>
+    <path d="M 121 59 C 121 51 127 49 135 49 C 143 49 149 51 149 59 Z" fill="#ffffff"/>
+
+    <!-- Welcome Text -->
+    <text x="135" y="90" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="14" text-anchor="middle">Welcome Back</text>
+    <text x="135" y="105" fill="rgba(255,255,255,0.6)" font-family="'Segoe UI', sans-serif" font-size="9" text-anchor="middle">Sign in to your account</text>
+
+    <!-- Email Field -->
+    <rect x="25" y="125" width="220" height="34" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="42" cy="142" r="5" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <text x="56" y="146" fill="rgba(255,255,255,0.5)" font-family="'Segoe UI', sans-serif" font-size="10">alex.designer@domain.com</text>
+
+    <!-- Password Field -->
+    <rect x="25" y="170" width="220" height="34" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <rect x="37" y="137" width="10" height="8" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" transform="translate(0, 47)"/>
+    <text x="56" y="191" fill="rgba(255,255,255,0.6)" font-family="'Segoe UI', sans-serif" font-size="12">••••••••••••</text>
+
+    <!-- Remember me & Forgot Pass -->
+    <rect x="25" y="214" width="10" height="10" rx="2" fill="#6366f1"/>
+    <text x="40" y="222" fill="rgba(255,255,255,0.7)" font-family="'Segoe UI', sans-serif" font-size="8">Remember me</text>
+    <text x="245" y="222" fill="#818cf8" font-family="'Segoe UI', sans-serif" font-size="8" text-anchor="end">Forgot Password?</text>
+
+    <!-- Sign In Button -->
+    <rect x="25" y="238" width="220" height="36" rx="10" fill="url(#sphere-1)"/>
+    <text x="135" y="260" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11" text-anchor="middle">SIGN IN</text>
+
+    <!-- Sign Up Link -->
+    <text x="135" y="294" fill="rgba(255,255,255,0.6)" font-family="'Segoe UI', sans-serif" font-size="8.5" text-anchor="middle">Don't have an account? <tspan fill="#38bdf8" font-weight="bold">Create one</tspan></text>
+  </g>
+</svg>

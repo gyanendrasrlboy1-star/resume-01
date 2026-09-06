@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1028"/>
+      <stop offset="100%" stop-color="#2d1537"/>
+    </linearGradient>
+    <linearGradient id="xd-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff26be"/>
+      <stop offset="100%" stop-color="#ff6080"/>
+    </linearGradient>
+    <linearGradient id="screen-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#471b4b"/>
+      <stop offset="100%" stop-color="#23122c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bg-grad-5)"/>
+
+  <!-- Adobe XD Badge Top Left -->
+  <g transform="translate(45, 30)">
+    <rect width="32" height="32" rx="8" fill="#470137" stroke="#ff26be" stroke-width="1.5"/>
+    <text x="16" y="22" fill="#ff61d2" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="14" text-anchor="middle">Xd</text>
+    <text x="44" y="21" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="14">Mobile App UI/UX Prototype</text>
+  </g>
+
+  <!-- 3 Mobile Screens (Wireframe to High Fidelity Flow) -->
+  <!-- Screen 1: Wireframe / Onboarding -->
+  <g transform="translate(60, 80)">
+    <rect width="140" height="260" rx="18" fill="#130c1a" stroke="rgba(255, 38, 190, 0.3)" stroke-width="1.5"/>
+    <rect x="50" y="8" width="40" height="5" rx="2.5" fill="#2d1938"/>
+    <!-- Wireframe blocks -->
+    <circle cx="70" cy="70" r="30" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-dasharray="4,4"/>
+    <rect x="25" y="125" width="90" height="10" rx="4" fill="rgba(255,255,255,0.3)"/>
+    <rect x="35" y="142" width="70" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+    <rect x="30" y="153" width="80" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+    <rect x="25" y="195" width="90" height="28" rx="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)"/>
+    <text x="70" y="213" fill="rgba(255,255,255,0.6)" font-family="'Segoe UI', sans-serif" font-size="8" text-anchor="middle">Wireframe</text>
+  </g>
+
+  <!-- Screen 2: High Fidelity Center Screen (Featured) -->
+  <g transform="translate(230, 65)">
+    <rect width="150" height="280" rx="20" fill="#1f1127" stroke="url(#xd-accent)" stroke-width="2"/>
+    <rect x="52" y="8" width="46" height="6" rx="3" fill="#3b173f"/>
+    <!-- Screen Header -->
+    <circle cx="28" cy="35" r="12" fill="url(#xd-accent)" opacity="0.6"/>
+    <rect x="48" y="30" width="65" height="10" rx="3" fill="#ffffff"/>
+    <rect x="122" y="28" width="14" height="14" rx="4" fill="rgba(255,255,255,0.15)"/>
+
+    <!-- Featured UI Card -->
+    <rect x="15" y="60" width="120" height="75" rx="10" fill="url(#xd-accent)"/>
+    <text x="25" y="82" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="9">Active Balance</text>
+    <text x="25" y="104" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="16">$3,450.00</text>
+    <rect x="25" y="116" width="60" height="5" rx="2" fill="rgba(255,255,255,0.6)"/>
+
+    <!-- Quick Actions Row -->
+    <g transform="translate(15, 146)">
+      <circle cx="16" cy="16" r="14" fill="rgba(255,255,255,0.08)"/>
+      <circle cx="48" cy="16" r="14" fill="rgba(255,255,255,0.08)"/>
+      <circle cx="80" cy="16" r="14" fill="rgba(255,255,255,0.08)"/>
+      <circle cx="106" cy="16" r="14" fill="rgba(255,255,255,0.08)"/>
+    </g>
+
+    <!-- Recent Transactions -->
+    <rect x="15" y="190" width="120" height="32" rx="8" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="30" cy="206" r="8" fill="#10b981"/>
+    <rect x="44" y="200" width="45" height="6" rx="2" fill="#ffffff"/>
+    <rect x="44" y="210" width="30" height="4" rx="2" fill="rgba(255,255,255,0.4)"/>
+    <text x="125" y="208" fill="#10b981" font-size="8" font-weight="bold" text-anchor="end">+$450</text>
+
+    <rect x="15" y="228" width="120" height="32" rx="8" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="30" cy="244" r="8" fill="#ef4444"/>
+    <rect x="44" y="238" width="45" height="6" rx="2" fill="#ffffff"/>
+    <rect x="44" y="248" width="30" height="4" rx="2" fill="rgba(255,255,255,0.4)"/>
+    <text x="125" y="246" fill="#f87171" font-size="8" font-weight="bold" text-anchor="end">-$89</text>
+  </g>
+
+  <!-- Screen 3: User Profile / Analytics -->
+  <g transform="translate(410, 80)">
+    <rect width="140" height="260" rx="18" fill="#130c1a" stroke="rgba(255, 38, 190, 0.3)" stroke-width="1.5"/>
+    <rect x="50" y="8" width="40" height="5" rx="2.5" fill="#2d1938"/>
+    <!-- Analytics chart mockup -->
+    <circle cx="70" cy="55" r="22" fill="#ff26be" opacity="0.3"/>
+    <rect x="30" y="90" width="80" height="8" rx="3" fill="#ffffff"/>
+    <rect x="40" y="104" width="60" height="5" rx="2" fill="rgba(255,255,255,0.4)"/>
+
+    <!-- Bar chart -->
+    <g transform="translate(25, 125)">
+      <rect x="10" y="55" width="12" height="35" rx="3" fill="#ff26be"/>
+      <rect x="30" y="30" width="12" height="60" rx="3" fill="#ff6080"/>
+      <rect x="50" y="45" width="12" height="45" rx="3" fill="#ff26be"/>
+      <rect x="70" y="15" width="12" height="75" rx="3" fill="#ff6080"/>
+    </g>
+    <rect x="25" y="225" width="90" height="15" rx="4" fill="rgba(255,255,255,0.08)"/>
+  </g>
+</svg>
